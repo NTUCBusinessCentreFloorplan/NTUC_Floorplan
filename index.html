@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTUC Spaces | Empowering Events</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,500,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.ibb.co/Rp4mjKsL/NTUC-logo-spaces.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="ntuc-spaces-header">
+        <div class="container header-flex">
+            <div class="ntuc-logo-flex">
+                <img src="https://i.ibb.co/Rp4mjKsL/NTUC-logo-spaces.png"
+                     alt="NTUC Spaces Logo"
+                     class="ntuc-logo-img extra-large-logo">
+                <img src="https://i.ibb.co/46j8hLh/neww.gif"
+                     alt="NTUC Animated GIF"
+                     class="ntuc-gif">
+            </div>
+            <nav class="ntuc-main-nav">
+                <a href="#spaces"><i class="fa-solid fa-building"></i> Our Spaces</a>
+                <a href="#video"><i class="fa-solid fa-envelope"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="ntuc-hero hero-modern">
+        <div class="container hero-modern-content">
+            <div class="hero-modern-text">
+                <h1>
+                    NTUC Spaces<br>
+                    <span class="hero-highlight">Empowering Your Events</span>
+                </h1>
+                <p>
+                    Singapore’s premier union venue for seminars, conferences, training and memorable events.<br>
+                    Flexible layouts, world-class facilities, and customizable floorplans for every gathering.
+                </p>
+                <a href="#spaces" class="hero-cta-btn"><i class="fa-solid fa-magnifying-glass-location"></i> Explore Our Spaces</a>
+            </div>
+            <div class="hero-modern-image">
+                <img src="https://i.ibb.co/DfrYMtVb/2-Happy-May-Day-U-Portal-Home-Page-Carousel-FA.png"
+                     alt="May Day Design"
+                     class="mayday-img-large">
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities/Spaces Section -->
+    <section id="spaces" class="spaces-section">
+        <div class="container">
+            <h2 class="section-title"><span class="fa-solid fa-layer-group"></span> Our Event Spaces</h2>
+            <div class="spaces-list">
+
+                <!-- Stephen Riady Auditorium -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/0RZnfWy5/sraud.jpg" alt="Stephen Riady Auditorium" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Stephen Riady Auditorium @ NTUC</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 7</span>
+                        <p>
+                            550-seat, state-of-the-art, theatre-style auditorium with advanced AV technology and breathtaking skyline views. 
+                            Perfect for large-scale conferences, ceremonies, and recitals.
+                        </p>
+                     <a href="#" class="design-btn" data-floor="auditorium">Design floorplan</a>
+
+
+                    </div>
+                </div>
+
+                <!-- Mezzanine -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/B2tjxgHt/MEZZA.jpg" alt="Mezzanine" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Mezzanine</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 7</span>
+                        <p>
+                            Sleek, pillarless mezzanine with panoramic glass windows. Ideal for cocktail receptions, launches, and networking events.
+                        </p>
+              <a href="#" class="design-btn" data-floor="mezzanine">Design floorplan</a>
+
+                    </div>
+                </div>
+
+                <!-- Holding Room -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/Y4QRRzry/HROOM.jpg" alt="Holding Room" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Holding Room</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 7</span>
+                        <p>
+                            Exclusive, private holding room. Host VIPs, special guests, or use as a breakout space for team discussions and event prep.
+                        </p>
+                        <a href="#" class="design-btn" data-floor="holdingroom">Design floorplan</a>
+
+                    </div>
+                </div>
+
+                <!-- Training Rooms -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/1tDYzs5C/Venuexploer-Training-Rooms-3.jpg" alt="Training Rooms" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Training Rooms</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 7 & 8</span>
+                        <p>
+                            Modern, pillarless training rooms with natural lighting and multi-setup capabilities. 
+                            Perfect for seminars, workshops, and courses.
+                        </p>
+                        <a href="#" class="design-btn" data-floor="training">Design floorplan</a>
+                    </div>
+                </div>
+
+                <!-- Level 7 Foyer -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/nq9Y4xBQ/Spaces-Level-7-Foyer.jpg" alt="Level 7 Foyer" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Level 7 Foyer</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 7</span>
+                        <p>
+                            Grand, light-filled foyer for event registration, guest reception, exhibition booths, or social mingling before/after your main event.
+                        </p>
+                        <a href="#" class="design-btn" data-floor="foyer">Design floorplan</a>
+                    </div>
+                </div>
+
+                <!-- Level 8 Foyer -->
+                <div class="space-card">
+                    <img src="https://i.ibb.co/Nd4qfYXr/SPACES-L8-Foyer.jpg" alt="Level 8 Foyer" class="space-img uncropped">
+                    <div class="space-info">
+                        <h3>Level 8 Foyer</h3>
+                        <span class="space-location"><i class="fa-solid fa-location-dot"></i> Level 8</span>
+                        <p>
+                            Contemporary event foyer with flexible layout options. Use for breakouts, exhibitions, or as a stylish networking zone.
+                        </p>
+                       <a href="#" class="design-btn" data-floor="level8foyer">Design floorplan</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Unified & Dynamic Floor Plan Designer Section ====== -->
+    <section class="fp-floorplanner-section">
+      <div class="container">
+        <!-- Header & Room Specs/Dynamic Desc -->
+        <div class="fp-header-flex">
+          <h2 class="fp-section-title" id="fp-section-title">
+            <i class="fa-solid fa-drafting-compass"></i> Training Rooms Floor Plan Designer
+          </h2>
+          <div id="fp-room-specs-card" class="fp-room-specs-card">
+            <div>
+              <span class="fp-room-label"><i class="fa-solid fa-ruler-combined"></i> Room Size:</span>
+              <span class="fp-room-value">40ft x 33ft</span>
+            </div>
+            <div>
+              <span class="fp-room-label"><i class="fa-solid fa-users"></i> Max Capacity:</span>
+              <span class="fp-room-value">160 people</span>
+            </div>
+            <div>
+              <span class="fp-room-label"><i class="fa-solid fa-microphone-lines"></i> Features:</span>
+              <span class="fp-room-value">Built-in projector, WiFi, A/V system</span>
+            </div>
+          </div>
+          <!-- Foyer Desc -->
+          <div id="fp-foyer-desc" class="fp-foyer-desc" style="display:none;">
+            <div><i class="fa-solid fa-circle-info"></i> The Level 7 Foyer is used for access and registration for the Auditorium, 701 Training Room, and Holding Room. Ideal for guest reception, social mingling, and exhibition setup.</div>
+          </div>
+        </div>
+
+        <!-- Preset Templates (hidden for foyer) -->
+        <div id="fp-presets-compact" class="fp-presets-compact">
+          <button id="theatre-btn" class="fp-preset-btn"><i class="fas fa-theater-masks"></i> Theatre Setup</button>
+          <button id="roundtable-btn" class="fp-preset-btn"><i class="fas fa-chess-board"></i> Round Table Setup</button>
+          <button id="empty-btn" class="fp-preset-btn"><i class="fas fa-eraser"></i> Empty Plan</button>
+        </div>
+
+        <div class="fp-flex-layout">
+          <!-- Furniture Inventory -->
+          <aside class="fp-inventory" id="fp-inventory">
+            <h3><i class="fas fa-archive"></i> Furniture Inventory</h3>
+            <div class="fp-furniture-grid-2x2">
+              <div class="fp-furniture" draggable="true" data-type="rectangle-table">
+                <svg width="64" height="32" viewBox="0 0 64 32">
+                  <rect x="0" y="0" width="64" height="32" rx="4" fill="#8B4513"/>
+                  <rect x="4" y="4" width="56" height="24" rx="2" fill="#A0522D"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Rectangular Table</div>
+                  <div class="fp-f-size">6’ x 2’8”</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="rectangle-table">0</span> / 30</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="round-table">
+                <svg width="48" height="48" viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="24" fill="#A0522D"/>
+                  <circle cx="24" cy="24" r="20" fill="#D2B48C" opacity="0.7"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Round Table</div>
+                  <div class="fp-f-size">4’10” ø</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="round-table">0</span> / 10</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="white-board">
+                <svg width="24" height="48" viewBox="0 0 24 48">
+                  <rect x="2" y="3" width="20" height="38" rx="2" fill="#eaeaea" stroke="#bbb" stroke-width="1.5"/>
+                  <rect x="4" y="7" width="16" height="28" rx="1" fill="#fff"/>
+                  <rect x="5" y="37" width="14" height="3" rx="1.5" fill="#e2e2e2"/>
+                  <rect x="9" y="41" width="6" height="4" rx="1" fill="#bbb"/>
+                  <circle cx="12" cy="47" r="2" fill="#888"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Flip_Chart</div>
+                  <div class="fp-f-size">2’ x 4’</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="white-board">0</span> / 10</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="chair">
+                <svg width="24" height="32" viewBox="0 0 24 32">
+                  <rect x="7" y="14" width="10" height="10" rx="3" fill="#4A90E2"/>
+                  <rect x="8.5" y="5" width="7" height="10" rx="2" fill="#87BFFF"/>
+                  <rect x="6" y="24" width="3" height="6" rx="1.5" fill="#666"/>
+                  <rect x="15" y="24" width="3" height="6" rx="1.5" fill="#666"/>
+                  <rect x="7" y="23" width="10" height="2" rx="1" fill="#bbb"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Chair</div>
+                  <div class="fp-f-size">1’7” x 1’7”</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="chair">0</span> / 160</div>
+                </div>
+              </div>
+            </div>
+            <div class="fp-furniture-grid-2x2">
+              <div class="fp-furniture" draggable="true" data-type="partition">
+                <svg width="60" height="24" viewBox="0 0 60 24">
+                  <rect x="2" y="4" width="56" height="12" rx="5" fill="#d2d5da" stroke="#888" stroke-width="1"/>
+                  <rect x="4" y="17" width="8" height="4" rx="2" fill="#bbb"/>
+                  <rect x="48" y="17" width="8" height="4" rx="2" fill="#bbb"/>
+                  <rect x="7" y="7" width="46" height="7" rx="2" fill="#fff"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Partition</div>
+                  <div class="fp-f-size">4’11” x 1’10”</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="partition">0</span> / 6</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="portable-stage">
+                <svg width="80" height="25" viewBox="0 0 80 25">
+                  <rect x="0" y="7" width="80" height="12" rx="3" fill="#4e4e4e" stroke="#888" stroke-width="1"/>
+                  <rect x="3" y="13" width="10" height="9" rx="2" fill="#888" opacity="0.6"/>
+                  <rect x="67" y="13" width="10" height="9" rx="2" fill="#888" opacity="0.6"/>
+                  <rect x="28" y="10" width="24" height="7" rx="2" fill="#888" opacity="0.25"/>
+                  <rect x="6" y="7" width="68" height="6" rx="2" fill="#777" opacity="0.4"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Portable Stage</div>
+                  <div class="fp-f-size">14’ x 3’11”</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="portable-stage">0</span> / 1</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="standing-mic">
+                <svg width="16" height="34" viewBox="0 0 16 34">
+                  <ellipse cx="8" cy="7" rx="7" ry="7" fill="#bbb"/>
+                  <rect x="6" y="15" width="4" height="14" fill="#222"/>
+                  <rect x="2" y="29" width="12" height="3" fill="#666"/>
+                  <ellipse cx="8" cy="31" rx="7" ry="2" fill="#444"/>
+                  <rect x="7" y="13" width="2" height="5" fill="#888"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Standing Mic</div>
+                  <div class="fp-f-size">1’ x 2’8”</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="standing-mic">0</span> / 4</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="jumbo-bin">
+                <svg width="26" height="24" viewBox="0 0 26 24">
+                  <ellipse cx="13" cy="10" rx="10" ry="10" fill="#333"/>
+                  <ellipse cx="13" cy="19" rx="8" ry="4" fill="#555"/>
+                </svg>
+                <div class="fp-f-details">
+                  <div class="fp-f-name">Jumbo Bin</div>
+                  <div class="fp-f-size">2’ x 2’</div>
+                  <div class="fp-f-count"><span class="fp-counter" data-counter="jumbo-bin">0</span> / 4</div>
+                </div>
+              </div>
+              <div class="fp-furniture" draggable="true" data-type="cocktail-table">
+  <svg width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+      <radialGradient id="cocktailGlassTop" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="0.98"/>
+        <stop offset="50%" stop-color="#b8c3cc" stop-opacity="0.85"/>
+        <stop offset="100%" stop-color="#9e9e9e" stop-opacity="0.93"/>
+      </radialGradient>
+      <radialGradient id="cocktailGlassEdge" cx="50%" cy="50%" r="80%">
+        <stop offset="0%" stop-color="#e3e9ef" stop-opacity="0"/>
+        <stop offset="80%" stop-color="#757575" stop-opacity="0.35"/>
+      </radialGradient>
+      <linearGradient id="cocktailGlassStem" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e0e0e0"/>
+        <stop offset="100%" stop-color="#888"/>
+      </linearGradient>
+    </defs>
+    <!-- Tabletop -->
+    <circle cx="20" cy="18" r="13" fill="url(#cocktailGlassTop)" stroke="#888" stroke-width="2"/>
+    <ellipse cx="20" cy="18" rx="13" ry="6" fill="url(#cocktailGlassEdge)"/>
+    <!-- Stem -->
+    <rect x="17" y="26" width="6" height="10" rx="3" fill="url(#cocktailGlassStem)"/>
+    <ellipse cx="20" cy="37" rx="6" ry="3" fill="#c0c0c0" opacity="0.6"/>
+  </svg>
+  <div class="fp-f-details">
+    <div class="fp-f-name">Cocktail Table</div>
+    <div class="fp-f-size">2’4” ø</div>
+    <div class="fp-f-count"><span class="fp-counter" data-counter="cocktail-table">0</span> / 10</div>
+  </div>
+</div>
+<div class="fp-furniture" draggable="true" data-type="queue-pole">
+  <svg width="75" height="30" viewBox="0 0 150 30">
+    <defs>
+      <radialGradient id="queueBase2" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#fff"/>
+        <stop offset="90%" stop-color="#888"/>
+      </radialGradient>
+      <linearGradient id="queuePole2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#d7dde2"/>
+        <stop offset="100%" stop-color="#848484"/>
+      </linearGradient>
+      <linearGradient id="thickRope" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#c62828"/>
+        <stop offset="40%" stop-color="#ff5370"/>
+        <stop offset="100%" stop-color="#ad1457"/>
+      </linearGradient>
+      <radialGradient id="ropeGlow" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="#c62828" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Left base -->
+    <ellipse cx="15" cy="27" rx="13" ry="3.8" fill="url(#queueBase2)" opacity="0.9"/>
+    <rect x="10" y="5" width="10" height="22" rx="5" fill="url(#queuePole2)" stroke="#888" stroke-width="1"/>
+    <ellipse cx="15" cy="5" rx="7" ry="3.2" fill="#ececec" stroke="#ccc" stroke-width="1"/>
+    <!-- Right base -->
+    <ellipse cx="135" cy="27" rx="13" ry="3.8" fill="url(#queueBase2)" opacity="0.9"/>
+    <rect x="130" y="5" width="10" height="22" rx="5" fill="url(#queuePole2)" stroke="#888" stroke-width="1"/>
+    <ellipse cx="135" cy="5" rx="7" ry="3.2" fill="#ececec" stroke="#ccc" stroke-width="1"/>
+    <!-- Rope (now THICK and 3D) -->
+    <rect x="25" y="12" width="100" height="7" rx="3.5"
+      fill="url(#thickRope)" stroke="#881544" stroke-width="2"/>
+    <ellipse cx="75" cy="15.5" rx="50" ry="3.5" fill="url(#ropeGlow)" opacity="0.4"/>
+    <!-- Rope ends -->
+    <circle cx="25" cy="15.5" r="4" fill="#c62828" stroke="#ad1457" stroke-width="1.2"/>
+    <circle cx="125" cy="15.5" r="4" fill="#c62828" stroke="#ad1457" stroke-width="1.2"/>
+  </svg>
+  <div class="fp-f-details">
+    <div class="fp-f-name">Queue Pole</div>
+    <div class="fp-f-size">8’ long</div>
+    <div class="fp-f-count"><span class="fp-counter" data-counter="queue-pole">0</span> / 20</div>
+  </div>
+</div>
+
+
+              
+            </div>
+          </aside>
+
+          <!-- Unified Floor Plan Area -->
+          <main class="fp-floorplan-main">
+            <div id="fp-floorplan-container" class="fp-floorplan-container">
+              <!-- Dynamic Plan gets injected here via JS -->    
+            </div>
+            <div class="fp-controls">
+              <button class="fp-btn" id="fp-save-btn"><i class="fa-solid fa-floppy-disk"></i> Save Floorplan</button>
+              <button class="fp-btn" id="fp-load-btn"><i class="fa-solid fa-folder-open"></i> Load Floorplan</button>
+              <button id="fp-reset-btn" class="fp-btn">Reset</button>
+            </div>
+          </main>
+        </div>
+
+        <!-- Save Modal -->
+        <div id="fp-save-modal" class="fp-modal" style="display:none;">
+          <div class="fp-modal-content">
+            <span class="fp-modal-close" id="fp-save-modal-close">&times;</span>
+            <h3>Save Floorplan Design</h3>
+            <input type="text" id="fp-save-name" placeholder="Design Name" />
+            <textarea id="fp-save-desc" placeholder="Description (optional)"></textarea>
+            <button class="fp-btn" id="fp-modal-save-confirm"><i class="fa-solid fa-floppy-disk"></i> Save</button>
+            <button class="fp-btn" id="fp-modal-save-pdf" type="button"><i class="fa-solid fa-file-pdf"></i> Download as PDF</button>
+          </div>
+        </div>
+
+        <!-- Load Modal -->
+        <div id="fp-load-modal" class="fp-modal" style="display:none;">
+          <div class="fp-modal-content">
+            <span class="fp-modal-close" id="fp-load-modal-close">&times;</span>
+            <h3>Load Saved Floorplan</h3>
+            <ul id="fp-saved-list"></ul>
+            <div id="fp-download-section" style="display:none;">
+              <button class="fp-btn" id="fp-download-btn"><i class="fa-solid fa-file-pdf"></i> Download as PDF</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instructions -->
+        <div class="fp-instructions-modern">
+          <div class="fp-floorplan-note highlight-note" style="margin-bottom: 26px; margin-top: 0;">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    <span>FLOORPLAN NOT DRAWN TO SCALE</span>
+  </div>
+          <div class="fp-instructions-modern-header">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>How to Use the Floorplan Designer</span>
+          </div>
+          <ol class="fp-instructions-modern-list">
+            <li>
+              <span class="fp-step-number">1</span>
+              Drag and drop furniture from the inventory to the floor plan area.
+            </li>
+            <li>
+              <span class="fp-step-number">2</span>
+              Move items by dragging. <span class="fp-step-tip">Right-click & drag</span> to rotate.
+            </li>
+            <li>
+              <span class="fp-step-number">3</span>
+              <span class="fp-step-tip">Double-click</span> any placed item to remove it.
+            </li>
+            <li>
+              <span class="fp-step-number">4</span>
+              Use preset buttons for quick layouts or clear for a fresh start.
+            </li>
+            <li>
+              <span class="fp-step-number">5</span>
+              Save, load, or <span class="fp-step-tip">download</span> your design as a PDF.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- ====== END DYNAMIC FLOORPLANNER SECTION ====== -->
+
+    <section class="meet-team-section enhanced-team-bg">
+      <div class="container">
+        <div class="meet-team-header-flex">
+          <h2 class="section-title">
+            <i class="fa-solid fa-users"></i> Meet Our Team
+          </h2>
+          <div class="team-intro-text">
+            Our dedicated team is here to bring your events to life with expertise, energy, and genuine care.
+          </div>
+        </div>
+        <div class="slider-container">
+         <div class="slider-images">
+  <div class="slider-img">
+    <img src="https://i.ibb.co/5hCNV81W/alfiq.jpg" alt="Alfiq Martindra">
+    <div class="slider-img-name">Alfiq</div>
+    <div class="details">
+      <h2>Alfiq Martindra</h2>
+      <p>Events Coordinator</p>
+    </div>
+  </div>
+  <div class="slider-img active">
+    <img src="https://i.ibb.co/pjpt0sSg/jas.jpg" alt="Business Centre">
+    <div class="slider-img-name">Jason</div>
+    <div class="details">
+      <h2>Jason Yap</h2>
+      <p>Business Centre Team Lead</p>
+    </div>
+  </div>
+  <div class="slider-img">
+    <img src="https://i.ibb.co/999gvqt3/siti.jpg" alt="Siti">
+    <div class="slider-img-name">Siti</div>
+    <div class="details">
+      <h2>Siti Jamaliyah</h2>
+      <p>Facilities Manager</p>
+    </div>
+  </div>
+  <div class="slider-img">
+    <img src="https://i.ibb.co/Lhtmnb56/last.jpg" alt="Gowri">
+    <div class="slider-img-name">Gowri</div>
+    <div class="details">
+      <h2>Gowri</h2>
+      <p>Events Support</p>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="video-testimonial-section" id="video">
+      <div class="container video-testimonial-flex">
+        <div class="contact-block">
+          <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Contact & Bookings</h2>
+          <p>Ready to book your next event? Have a question? Our team is here to help.</p>
+          <div class="contact-details">
+            <span><i class="fa-solid fa-phone"></i> 6213 8811</span>
+            <span><i class="fa-solid fa-envelope"></i> bookings@ntuc.org.sg</span>
+          </div>
+          <a href="https://spaces.ntuc.org.sg/" 
+   class="main-site-btn" 
+   target="_blank" 
+   rel="noopener">
+   <i class="fa-solid fa-globe"></i> Visit NTUC Spaces Main Website
+</a>
+
+        </div>
+        <div class="video-block">
+          <h2 class="video-title">NTUC SOLIDARITY FOREVER</h2>
+          <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/53001MGyLKM?autoplay=1&mute=1&controls=0&loop=1&playlist=53001MGyLKM"
+                title="NTUC Solidarity Forever" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ntuc-footer">
+        <div class="container footer-flex">
+            <div class="footer-left">
+                <img src="https://i.ibb.co/Rp4mjKsL/NTUC-logo-spaces.png" alt="NTUC Logo" class="footer-logo large-footer-logo">
+                <div class="footer-copy">© 2025 National Trades Union Congress. All rights reserved.</div>
+            </div>
+            <div class="footer-social">
+  <a href="https://www.facebook.com/NTUCSingapore/" target="_blank" rel="noopener" aria-label="NTUC Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.linkedin.com/company/ntuc/" target="_blank" rel="noopener" aria-label="NTUC LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://www.instagram.com/ntucsingapore/" target="_blank" rel="noopener" aria-label="NTUC Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
